@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:1-139:12
+	package
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:18:11-52
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:19:11-38
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:20:11-36
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:21:11-41
+uses-permission#android.permission.CAMERA
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:23:3-62
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:23:20-60
+uses-permission#android.permission.INTERNET
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:24:3-64
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:24:20-62
+uses-permission#android.permission.VIBRATE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:25:3-63
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:25:20-61
+uses-permission#android.permission.FLASHLIGHT
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:26:3-66
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:26:20-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:27:3-69
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:27:20-67
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:29:3-90
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:29:20-88
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:30:3-78
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:30:20-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:31:3-73
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:31:20-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:32:3-73
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:32:20-71
+uses-feature#android.hardware.camera.any
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:36:3-61
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:36:17-59
+uses-feature#android.hardware.camera.autofocus
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:3-92
+	android:required
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:66-90
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:17-65
+uses-feature#android.hardware.camera.flash
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:3-88
+	android:required
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:62-86
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:17-61
+uses-feature#android.hardware.screen.landscape
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:39:3-67
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:39:17-65
+uses-feature#android.hardware.wifi
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:3-80
+	android:required
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:54-78
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:17-53
+application
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:42:3-137:17
+	android:allowBackup
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:44:7-33
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:45:5-84:16
+	android:screenOrientation
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:46:15-58
+	android:clearTaskOnLaunch
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:47:15-47
+	android:stateNotNeeded
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:48:15-44
+	android:windowSoftInputMode
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:50:15-62
+	android:theme
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:49:15-50
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:45:15-46
+intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:52:7-55:23
+action#com.google.zxing.client.android.SCAN
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:53:9-70
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:53:17-68
+category#android.intent.category.DEFAULT
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:zxing.appspot.com+data:path:/scan+data:scheme:http
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:57:7-62:23
+action#android.intent.action.VIEW
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:9-60
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:17-58
+category#android.intent.category.BROWSABLE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:9-69
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:19-67
+data
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+	android:path
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:70-90
+	android:host
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:37-69
+	android:scheme
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:15-36
+	android:mimeType
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:98:15-46
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.com+data:path:/m/products/scan+data:scheme:http
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:64:7-69:23
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.co.uk+data:path:/m/products/scan+data:scheme:http
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:71:7-76:23
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:scan+data:path:/+data:scheme:zxing
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:78:7-83:23
+activity#com.google.zxing.client.android.PreferencesActivity
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:85:5-87:46
+	android:stateNotNeeded
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:87:15-44
+	android:label
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:86:15-55
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:85:15-50
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:88:5-106:16
+	android:stateNotNeeded
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:89:15-44
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:88:15-52
+intent-filter#action:name:com.google.zxing.client.android.ENCODE+category:name:android.intent.category.DEFAULT
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:90:7-93:23
+action#com.google.zxing.client.android.ENCODE
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:91:9-72
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:91:17-70
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/x-vcard
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:95:7-99:23
+action#android.intent.action.SEND
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:9-60
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:17-58
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:101:7-105:23
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:133:5-136:46
+	android:screenOrientation
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:135:15-47
+	android:stateNotNeeded
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:136:15-44
+	android:label
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:134:15-48
+	android:name
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:133:15-43
+uses-sdk
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		ADDED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+		INJECTED from H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml

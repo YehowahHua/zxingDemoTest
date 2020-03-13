@@ -1,0 +1,296 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2008 ZXing authors
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9      http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.google.zxing.client.android"
+19    android:installLocation="auto"
+20    android:versionCode="108"
+21    android:versionName="4.7.8" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="19"
+24-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="22" />
+25-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:23:3-62
+27-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:23:20-60
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:24:3-64
+28-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:24:20-62
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:25:3-63
+29-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:25:20-61
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:26:3-66
+30-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:26:20-64
+31    <uses-permission android:name="android.permission.READ_CONTACTS" />
+31-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:27:3-69
+31-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:27:20-67
+32    <!-- unavailable in API 23 -->
+33    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+33-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:29:3-90
+33-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:29:20-88
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:30:3-78
+34-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:30:20-76
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:31:3-73
+35-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:31:20-71
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:32:3-73
+36-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:32:20-71
+37
+38    <uses-feature android:name="android.hardware.camera.any" />
+38-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:36:3-61
+38-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:36:17-59
+39    <uses-feature
+39-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:3-92
+40        android:name="android.hardware.camera.autofocus"
+40-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:17-65
+41        android:required="false" />
+41-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:37:66-90
+42    <uses-feature
+42-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:3-88
+43        android:name="android.hardware.camera.flash"
+43-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:17-61
+44        android:required="false" />
+44-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:38:62-86
+45    <uses-feature android:name="android.hardware.screen.landscape" />
+45-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:39:3-67
+45-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:39:17-65
+46    <uses-feature
+46-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:3-80
+47        android:name="android.hardware.wifi"
+47-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:17-53
+48        android:required="false" />
+48-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:40:54-78
+49
+50    <application android:allowBackup="true" >
+50-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:42:3-137:17
+50-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:44:7-33
+51        <activity
+51-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:45:5-84:16
+52            android:name="com.google.zxing.client.android.CaptureActivity"
+52-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:45:15-46
+53            android:clearTaskOnLaunch="true"
+53-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:47:15-47
+54            android:screenOrientation="sensorLandscape"
+54-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:46:15-58
+55            android:stateNotNeeded="true"
+55-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:48:15-44
+56            android:theme="@style/CaptureTheme"
+56-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:49:15-50
+57            android:windowSoftInputMode="stateAlwaysHidden" >
+57-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:50:15-62
+58            <intent-filter>
+58-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:52:7-55:23
+59                <action android:name="com.google.zxing.client.android.SCAN" />
+59-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:53:9-70
+59-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:53:17-68
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+61-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+62            </intent-filter>
+63            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->
+64            <intent-filter>
+64-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:57:7-62:23
+65                <action android:name="android.intent.action.VIEW" />
+65-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:9-60
+65-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:17-58
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+67-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:9-69
+68-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:19-67
+69
+70                <data
+70-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+71                    android:host="zxing.appspot.com"
+71-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:37-69
+72                    android:path="/scan"
+72-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:70-90
+73                    android:scheme="http" />
+73-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:15-36
+74            </intent-filter>
+75            <!-- We also support a Google Product Search URL. -->
+76            <intent-filter>
+76-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:64:7-69:23
+77                <action android:name="android.intent.action.VIEW" />
+77-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:9-60
+77-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:17-58
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+79-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:9-69
+80-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:19-67
+81
+82                <data
+82-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+83                    android:host="www.google.com"
+83-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:37-69
+84                    android:path="/m/products/scan"
+84-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:70-90
+85                    android:scheme="http" />
+85-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:15-36
+86            </intent-filter>
+87            <!-- And the UK version. -->
+88            <intent-filter>
+88-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:71:7-76:23
+89                <action android:name="android.intent.action.VIEW" />
+89-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:9-60
+89-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:17-58
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+91-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:9-69
+92-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:19-67
+93
+94                <data
+94-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+95                    android:host="www.google.co.uk"
+95-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:37-69
+96                    android:path="/m/products/scan"
+96-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:70-90
+97                    android:scheme="http" />
+97-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:15-36
+98            </intent-filter>
+99            <!-- Support zxing://scan/?... like iPhone app -->
+100            <intent-filter>
+100-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:78:7-83:23
+101                <action android:name="android.intent.action.VIEW" />
+101-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:9-60
+101-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:58:17-58
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+103-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:9-69
+104-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:60:19-67
+105
+106                <data
+106-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+107                    android:host="scan"
+107-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:37-69
+108                    android:path="/"
+108-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:70-90
+109                    android:scheme="zxing" />
+109-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:15-36
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:85:5-87:46
+113            android:name="com.google.zxing.client.android.PreferencesActivity"
+113-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:85:15-50
+114            android:label="@string/preferences_name"
+114-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:86:15-55
+115            android:stateNotNeeded="true" />
+115-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:87:15-44
+116        <activity
+116-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:88:5-106:16
+117            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+117-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:88:15-52
+118            android:stateNotNeeded="true" >
+118-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:89:15-44
+119            <intent-filter>
+119-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:90:7-93:23
+120                <action android:name="com.google.zxing.client.android.ENCODE" />
+120-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:91:9-72
+120-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:91:17-70
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+122-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+123            </intent-filter>
+124            <!-- This allows us to handle the Share button in Contacts. -->
+125            <intent-filter>
+125-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:95:7-99:23
+126                <action android:name="android.intent.action.SEND" />
+126-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:9-60
+126-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:17-58
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+128-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+129
+130                <data android:mimeType="text/x-vcard" />
+130-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+130-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:98:15-46
+131            </intent-filter>
+132            <!-- This allows us to handle sharing any plain text . -->
+133            <intent-filter>
+133-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:101:7-105:23
+134                <action android:name="android.intent.action.SEND" />
+134-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:9-60
+134-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:96:17-58
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:9-67
+136-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:54:19-65
+137
+138                <data android:mimeType="text/plain" />
+138-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:61:9-92
+138-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:98:15-46
+139            </intent-filter>
+140        </activity>
+141        <!-- <activity android:name=".book.SearchBookContentsActivity" -->
+142        <!-- android:label="@string/sbc_name" -->
+143        <!-- android:stateNotNeeded="true" -->
+144        <!-- android:screenOrientation="sensorLandscape"> -->
+145        <!-- <intent-filter> -->
+146        <!-- <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS"/> -->
+147        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+148        <!-- </intent-filter> -->
+149        <!-- </activity> -->
+150        <!-- <activity android:name=".share.ShareActivity" -->
+151        <!-- android:stateNotNeeded="true" -->
+152        <!-- android:screenOrientation="user"> -->
+153        <!-- <intent-filter> -->
+154        <!-- <action android:name="com.google.zxing.client.android.SHARE"/> -->
+155        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+156        <!-- </intent-filter> -->
+157        <!-- </activity> -->
+158        <!-- <activity android:name=".history.HistoryActivity" -->
+159        <!-- android:label="@string/history_title" -->
+160        <!-- android:stateNotNeeded="true"/> -->
+161        <!-- <activity android:name=".share.BookmarkPickerActivity" -->
+162        <!-- android:label="@string/bookmark_picker_name" -->
+163        <!-- android:stateNotNeeded="true"/> -->
+164        <!-- <activity android:name=".share.AppPickerActivity" -->
+165        <!-- android:label="@string/app_picker_name" -->
+166        <!-- android:stateNotNeeded="true"/> -->
+167        <activity
+167-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:133:5-136:46
+168            android:name="com.google.zxing.client.android.HelpActivity"
+168-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:133:15-43
+169            android:label="@string/menu_help"
+169-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:134:15-48
+170            android:screenOrientation="user"
+170-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:135:15-47
+171            android:stateNotNeeded="true" />
+171-->H:\work_PrinterApp\Demo\zxingDemoTest\zxing\src\main\AndroidManifest.xml:136:15-44
+172    </application>
+173
+174</manifest>
